@@ -1,0 +1,29 @@
+<?php
+
+/**
+ * @var FoTech\CustomModule\Block\CurrencyExchangeRateIndex $block
+ */
+$currencies = $block->getCurrencyExchangeRate()['Exrate'];
+//var_dump();
+?>
+<h2>Currency Exchange Rate</h2>
+<table>
+    <tr>
+        <th>Currency Code</th>
+        <th>Currency Name</th>
+        <th>Buy</th>
+        <th>Transfer</th>
+        <th>Sell</th>
+    </tr>
+    <?php foreach($currencies as $currency): ?>
+        <?php $currency = $currency['@attributes']?>
+        <tr>
+            <td><?php echo $currency['CurrencyCode']?></td>
+            <td><?php echo $currency['CurrencyName']?></td>
+            <td><?php echo $currency['Buy']?></td>
+            <td><?php echo $currency['Transfer']?></td>
+            <td><?php echo $currency['Sell']?></td>
+        </tr>
+    <?php endforeach ?>
+</table>
+
