@@ -68,6 +68,8 @@
         "magento/composer": "1.6.0",
         "magento/magento-composer-installer": ">=0.1.11",
         "magento/zendframework1": "~1.14.2",
+        "mageplaza/magento-2-vietnamese-language-pack": "dev-master",
+        "mageplaza/module-smtp": "^4.6",
         "monolog/monolog": "^1.17",
         "paragonie/sodium_compat": "^1.6",
         "pelago/emogrifier": "^3.1.0",
