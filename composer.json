@@ -71,6 +71,7 @@
         "mageplaza/magento-2-vietnamese-language-pack": "dev-master",
         "mageplaza/module-smtp": "^4.6",
         "monolog/monolog": "^1.17",
+        "oxcom/magento2-top-products": "^1.1",
         "paragonie/sodium_compat": "^1.6",
         "pelago/emogrifier": "^3.1.0",
         "php-amqplib/php-amqplib": "~2.10.0",
