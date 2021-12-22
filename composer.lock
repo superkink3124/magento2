@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff8a799b830318cd333cfd2fd7263727",
+    "content-hash": "ffb6775c1eab4c5259b4f933b6fede50",
     "packages": [
         {
             "name": "boolfly/module-momo-wallet",
@@ -3615,6 +3615,94 @@
             "time": "2020-05-19T23:25:07+00:00"
         },
         {
+            "name": "mageplaza/magento-2-product-slider",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-product-slider.git",
+                "reference": "719f98ad3af6ad0e8d7eca3a441b16ce1940c620"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-product-slider/zipball/719f98ad3af6ad0e8d7eca3a441b16ce1940c620",
+                "reference": "719f98ad3af6ad0e8d7eca3a441b16ce1940c620",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Productslider\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Product Slider",
+            "time": "2021-08-13T11:17:50+00:00"
+        },
+        {
+            "name": "mageplaza/magento-2-seo-extension",
+            "version": "4.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-seo.git",
+                "reference": "f193c10e23c28ed0b275a0573bb239cde23e76cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-seo/zipball/f193c10e23c28ed0b275a0573bb239cde23e76cd",
+                "reference": "f193c10e23c28ed0b275a0573bb239cde23e76cd",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Seo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 SEO extension",
+            "keywords": [
+                "magento 2",
+                "magento 2 seo",
+                "mageplaza",
+                "seo"
+            ],
+            "time": "2021-11-17T01:27:54+00:00"
+        },
+        {
             "name": "mageplaza/magento-2-social-login",
             "version": "4.1.2",
             "source": {
@@ -3800,6 +3888,89 @@
             ],
             "description": "Magento 2 Google Recaptcha Extension",
             "time": "2021-08-22T10:04:35+00:00"
+        },
+        {
+            "name": "mageplaza/module-lazy-loading",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-lazy-loading.git",
+                "reference": "efd890c009f6c7591165504a2bbb8ad763087fc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-lazy-loading/zipball/efd890c009f6c7591165504a2bbb8ad763087fc1",
+                "reference": "efd890c009f6c7591165504a2bbb8ad763087fc1",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\LazyLoading\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Lazy Loading Images Extension",
+            "time": "2021-07-26T17:42:03+00:00"
+        },
+        {
+            "name": "mageplaza/module-sitemap",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-google-xml-sitemap.git",
+                "reference": "40dd206e2d7e7efaf689741933eb8a799621e9cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-google-xml-sitemap/zipball/40dd206e2d7e7efaf689741933eb8a799621e9cb",
+                "reference": "40dd206e2d7e7efaf689741933eb8a799621e9cb",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/magento-2-seo-extension": "^4.0.0",
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Sitemap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Google XML Sitemap extension",
+            "time": "2021-09-14T01:21:16+00:00"
         },
         {
             "name": "mageplaza/module-smtp",
