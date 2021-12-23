@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7136bea700f7333005056c8d9824bd81",
+    "content-hash": "ffb6775c1eab4c5259b4f933b6fede50",
     "packages": [
         {
             "name": "boolfly/module-momo-wallet",
@@ -684,6 +684,111 @@
             "time": "2020-02-14T23:51:21+00:00"
         },
         {
+            "name": "facebook/graph-sdk",
+            "version": "5.7.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/facebook/php-graph-sdk.git",
+                "reference": "2d8250638b33d73e7a87add65f47fabf91f8ad9b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/facebook/php-graph-sdk/zipball/2d8250638b33d73e7a87add65f47fabf91f8ad9b",
+                "reference": "2d8250638b33d73e7a87add65f47fabf91f8ad9b",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^5.4|^7.0"
+            },
+            "require-dev": {
+                "guzzlehttp/guzzle": "~5.0",
+                "mockery/mockery": "~0.8",
+                "phpunit/phpunit": "~4.0"
+            },
+            "suggest": {
+                "guzzlehttp/guzzle": "Allows for implementation of the Guzzle HTTP client",
+                "paragonie/random_compat": "Provides a better CSPRNG option in PHP 5"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "5.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Facebook\\": "src/Facebook/"
+                },
+                "files": [
+                    "src/Facebook/polyfills.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Facebook Platform"
+            ],
+            "authors": [
+                {
+                    "name": "Facebook",
+                    "homepage": "https://github.com/facebook/php-graph-sdk/contributors"
+                }
+            ],
+            "description": "Facebook SDK for PHP",
+            "homepage": "https://github.com/facebook/php-graph-sdk",
+            "keywords": [
+                "facebook",
+                "sdk"
+            ],
+            "time": "2018-12-11T22:56:31+00:00"
+        },
+        {
+            "name": "google/recaptcha",
+            "version": "1.2.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/google/recaptcha.git",
+                "reference": "614f25a9038be4f3f2da7cbfd778dc5b357d2419"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/google/recaptcha/zipball/614f25a9038be4f3f2da7cbfd778dc5b357d2419",
+                "reference": "614f25a9038be4f3f2da7cbfd778dc5b357d2419",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.5"
+            },
+            "require-dev": {
+                "friendsofphp/php-cs-fixer": "^2.2.20|^2.15",
+                "php-coveralls/php-coveralls": "^2.1",
+                "phpunit/phpunit": "^4.8.36|^5.7.27|^6.59|^7.5.11"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "1.2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "ReCaptcha\\": "src/ReCaptcha"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "description": "Client library for reCAPTCHA, a free service that protects websites from spam and abuse.",
+            "homepage": "https://www.google.com/recaptcha/",
+            "keywords": [
+                "Abuse",
+                "captcha",
+                "recaptcha",
+                "spam"
+            ],
+            "time": "2020-03-31T17:50:54+00:00"
+        },
+        {
             "name": "guzzlehttp/guzzle",
             "version": "6.5.5",
             "source": {
@@ -871,6 +976,63 @@
                 "url"
             ],
             "time": "2019-07-01T23:21:34+00:00"
+        },
+        {
+            "name": "hybridauth/hybridauth",
+            "version": "v2.18.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hybridauth/hybridauth.git",
+                "reference": "a879408ad340b68c79faeea2e7a85b95a1f261ba"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hybridauth/hybridauth/zipball/a879408ad340b68c79faeea2e7a85b95a1f261ba",
+                "reference": "a879408ad340b68c79faeea2e7a85b95a1f261ba",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "facebook/graph-sdk": "^5.4",
+                "paypal/rest-api-sdk-php": "*",
+                "php": ">=5.2.0"
+            },
+            "require-dev": {
+                "squizlabs/php_codesniffer": "2.*"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Hybrid": "hybridauth/"
+                },
+                "classmap": [
+                    "hybridauth/Hybrid"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "(MIT or GPL-3.0+)"
+            ],
+            "authors": [
+                {
+                    "name": "Miled",
+                    "email": "hybridauth@gmail.com"
+                }
+            ],
+            "description": "Open source social sign on PHP library.",
+            "homepage": "http://hybridauth.sourceforge.net",
+            "keywords": [
+                "OpenId",
+                "facebook",
+                "google",
+                "hybridauth",
+                "login",
+                "oauth",
+                "social",
+                "twitter",
+                "yahoo"
+            ],
+            "time": "2021-03-08T13:17:31+00:00"
         },
         {
             "name": "justinrainbow/json-schema",
@@ -3453,6 +3615,468 @@
             "time": "2020-05-19T23:25:07+00:00"
         },
         {
+            "name": "mageplaza/magento-2-product-slider",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-product-slider.git",
+                "reference": "719f98ad3af6ad0e8d7eca3a441b16ce1940c620"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-product-slider/zipball/719f98ad3af6ad0e8d7eca3a441b16ce1940c620",
+                "reference": "719f98ad3af6ad0e8d7eca3a441b16ce1940c620",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Productslider\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Product Slider",
+            "time": "2021-08-13T11:17:50+00:00"
+        },
+        {
+            "name": "mageplaza/magento-2-seo-extension",
+            "version": "4.1.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-seo.git",
+                "reference": "f193c10e23c28ed0b275a0573bb239cde23e76cd"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-seo/zipball/f193c10e23c28ed0b275a0573bb239cde23e76cd",
+                "reference": "f193c10e23c28ed0b275a0573bb239cde23e76cd",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Seo\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 SEO extension",
+            "keywords": [
+                "magento 2",
+                "magento 2 seo",
+                "mageplaza",
+                "seo"
+            ],
+            "time": "2021-11-17T01:27:54+00:00"
+        },
+        {
+            "name": "mageplaza/magento-2-social-login",
+            "version": "4.1.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-social-login.git",
+                "reference": "c61ace88987e3c38b0961f90a499f1dd0232aaed"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-social-login/zipball/c61ace88987e3c38b0961f90a499f1dd0232aaed",
+                "reference": "c61ace88987e3c38b0961f90a499f1dd0232aaed",
+                "shasum": ""
+            },
+            "require": {
+                "hybridauth/hybridauth": "^2.14.0",
+                "mageplaza/module-core": "^1.4.5",
+                "mageplaza/module-google-recaptcha": "^4.0.0",
+                "mageplaza/module-smtp": "^4.0.0",
+                "mageplaza/module-two-factor-authentication": "^4.0.0"
+            },
+            "require-dev": {
+                "roave/security-advisories": "dev-master"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\SocialLogin\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Social Login extension is designed for quick login to your Magento 2 store without procesing complex register steps",
+            "keywords": [
+                "Amazon Login",
+                "Facebook login",
+                "FourSquare Login",
+                "Google login",
+                "Instagram Login",
+                "LinkedIn Login",
+                "Microsoft Live Login",
+                "Social Login",
+                "Twitter login",
+                "Yahoo Login",
+                "facebook",
+                "google",
+                "login",
+                "magento 2",
+                "magento 2 social login",
+                "mageplaza",
+                "social proof",
+                "twitter"
+            ],
+            "time": "2021-08-13T09:24:49+00:00"
+        },
+        {
+            "name": "mageplaza/magento-2-vietnamese-language-pack",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-vietnamese-language-pack.git",
+                "reference": "0a8f36b3b21650f3b03cdf2972763e33fc6511e8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-vietnamese-language-pack/zipball/0a8f36b3b21650f3b03cdf2972763e33fc6511e8",
+                "reference": "0a8f36b3b21650f3b03cdf2972763e33fc6511e8",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.3.13"
+            },
+            "type": "magento2-language",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza team",
+                    "email": "hi@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Leader"
+                }
+            ],
+            "description": "Vietnamese language package for Magento 2",
+            "homepage": "https://www.mageplaza.com",
+            "time": "2021-07-29T09:10:54+00:00"
+        },
+        {
+            "name": "mageplaza/module-core",
+            "version": "1.4.11",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/module-core.git",
+                "reference": "45cf1e6a79ca82acc1fe82372bbb4e83ea308b6b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/module-core/zipball/45cf1e6a79ca82acc1fe82372bbb4e83ea308b6b",
+                "reference": "45cf1e6a79ca82acc1fe82372bbb4e83ea308b6b",
+                "shasum": ""
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Core\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Core for Magento 2",
+            "time": "2021-07-21T06:58:49+00:00"
+        },
+        {
+            "name": "mageplaza/module-google-recaptcha",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-google-recaptcha.git",
+                "reference": "825a88267d3df7e02caabd9a6c49a8b052738c0d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-google-recaptcha/zipball/825a88267d3df7e02caabd9a6c49a8b052738c0d",
+                "reference": "825a88267d3df7e02caabd9a6c49a8b052738c0d",
+                "shasum": ""
+            },
+            "require": {
+                "google/recaptcha": "^1.2",
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\GoogleRecaptcha\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Google Recaptcha Extension",
+            "time": "2021-08-22T10:04:35+00:00"
+        },
+        {
+            "name": "mageplaza/module-lazy-loading",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-lazy-loading.git",
+                "reference": "efd890c009f6c7591165504a2bbb8ad763087fc1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-lazy-loading/zipball/efd890c009f6c7591165504a2bbb8ad763087fc1",
+                "reference": "efd890c009f6c7591165504a2bbb8ad763087fc1",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\LazyLoading\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Mageplaza Lazy Loading Images Extension",
+            "time": "2021-07-26T17:42:03+00:00"
+        },
+        {
+            "name": "mageplaza/module-sitemap",
+            "version": "4.0.1",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-google-xml-sitemap.git",
+                "reference": "40dd206e2d7e7efaf689741933eb8a799621e9cb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-google-xml-sitemap/zipball/40dd206e2d7e7efaf689741933eb8a799621e9cb",
+                "reference": "40dd206e2d7e7efaf689741933eb8a799621e9cb",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/magento-2-seo-extension": "^4.0.0",
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Sitemap\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Google XML Sitemap extension",
+            "time": "2021-09-14T01:21:16+00:00"
+        },
+        {
+            "name": "mageplaza/module-smtp",
+            "version": "4.6.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-smtp.git",
+                "reference": "49d82c7f85f1b6ddd02d6dff85f4b0009a0acb95"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/49d82c7f85f1b6ddd02d6dff85f4b0009a0acb95",
+                "reference": "49d82c7f85f1b6ddd02d6dff85f4b0009a0acb95",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.11"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\Smtp\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "SMTP Extension for Magento 2 helps the owner of store simply install SMTP (Simple Mail Transfer Protocol) server which transmits the messages into codes or numbers",
+            "keywords": [
+                "Facebook ADS",
+                "Marketing Automation",
+                "Messenger",
+                "email",
+                "email marketing",
+                "email settings",
+                "facebook",
+                "gmail smtp",
+                "google ads",
+                "magento 2",
+                "magento 2 smtp",
+                "magento smtp",
+                "mageplaza",
+                "sms",
+                "sms marketing",
+                "smtp",
+                "web push notification",
+                "whatsapp"
+            ],
+            "time": "2021-11-09T07:21:38+00:00"
+        },
+        {
+            "name": "mageplaza/module-two-factor-authentication",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-two-factor-authentication.git",
+                "reference": "0278139d597af50c2f8e18ca0ab484a49dc0c423"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-two-factor-authentication/zipball/0278139d597af50c2f8e18ca0ab484a49dc0c423",
+                "reference": "0278139d597af50c2f8e18ca0ab484a49dc0c423",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5",
+                "sinergi/browser-detector": "*",
+                "sonata-project/google-authenticator": "2.0.0"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\TwoFactorAuth\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Two Factors Authentication Extension",
+            "time": "2021-08-16T10:57:07+00:00"
+        },
+        {
             "name": "monolog/monolog",
             "version": "1.25.4",
             "source": {
@@ -3528,6 +4152,61 @@
                 "psr-3"
             ],
             "time": "2020-05-22T07:31:27+00:00"
+        },
+        {
+            "name": "oxcom/magento2-top-products",
+            "version": "v1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/OxCom/magento2-top-products.git",
+                "reference": "a4e4d1b0a9fd44dc53de457000bdb4b1745e36cf"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/OxCom/magento2-top-products/zipball/a4e4d1b0a9fd44dc53de457000bdb4b1745e36cf",
+                "reference": "a4e4d1b0a9fd44dc53de457000bdb4b1745e36cf",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "100.0.*|100.1.*|101.0.*|102.0.*|103.0.*",
+                "magento/module-backend": "100.0.*|100.1.*|100.2.*|101.0.*|102.0.*|103.0.*",
+                "magento/module-config": "100.0.*|100.1.*|101.0.*|101.1.*|101.2.*",
+                "magento/module-directory": "100.0.*|100.1.*|100.2.*|100.3.*|100.4.*",
+                "magento/module-store": "100.0.*|100.1.*|100.2.*|101.0.*|101.1.*",
+                "php": ">=5.6"
+            },
+            "require-dev": {
+                "magento/zendframework1": "1.12.*|1.13.*|1.14.*",
+                "phpunit/phpunit": "5.3.5|^7.5.20|^9.3.8",
+                "squizlabs/php_codesniffer": "^3.5.8"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "OxCom\\MagentoTopProducts\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "OxCom",
+                    "email": "lancer.oxcom@gmail.com"
+                }
+            ],
+            "description": "This is a module that extends Magento2 API to get list of TOP products.",
+            "homepage": "https://github.com/OxCom/magento2-top-products",
+            "keywords": [
+                "api",
+                "magento2",
+                "top products"
+            ],
+            "time": "2021-01-11T11:27:30+00:00"
         },
         {
             "name": "paragonie/random_compat",
@@ -3655,6 +4334,56 @@
                 "side-channel resistant"
             ],
             "time": "2020-03-20T21:48:09+00:00"
+        },
+        {
+            "name": "paypal/rest-api-sdk-php",
+            "version": "1.14.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/paypal/PayPal-PHP-SDK.git",
+                "reference": "72e2f2466975bf128a31e02b15110180f059fc04"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/paypal/PayPal-PHP-SDK/zipball/72e2f2466975bf128a31e02b15110180f059fc04",
+                "reference": "72e2f2466975bf128a31e02b15110180f059fc04",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.3.0",
+                "psr/log": "^1.0.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8.35"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "PayPal": "lib/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "PayPal",
+                    "homepage": "https://github.com/paypal/rest-api-sdk-php/contributors"
+                }
+            ],
+            "description": "PayPal's PHP SDK for REST APIs",
+            "homepage": "http://paypal.github.io/PayPal-PHP-SDK/",
+            "keywords": [
+                "payments",
+                "paypal",
+                "rest",
+                "sdk"
+            ],
+            "abandoned": true,
+            "time": "2019-01-04T20:04:25+00:00"
         },
         {
             "name": "pelago/emogrifier",
@@ -4350,6 +5079,113 @@
                 "phar"
             ],
             "time": "2020-07-07T18:42:57+00:00"
+        },
+        {
+            "name": "sinergi/browser-detector",
+            "version": "6.1.4",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sinergi/php-browser-detector.git",
+                "reference": "4927f7c2bedc48b68f183bd420aa3549c59e133b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sinergi/php-browser-detector/zipball/4927f7c2bedc48b68f183bd420aa3549c59e133b",
+                "reference": "4927f7c2bedc48b68f183bd420aa3549c59e133b",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.2"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^8.0 || ^9.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Sinergi\\BrowserDetector\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Gabriel Bull",
+                    "email": "me@gabrielbull.com"
+                },
+                {
+                    "name": "Chris Schuld"
+                }
+            ],
+            "description": "Detecting the user's browser, operating system and language.",
+            "keywords": [
+                "browser",
+                "detection",
+                "language",
+                "operating system",
+                "os"
+            ],
+            "time": "2021-09-23T13:51:44+00:00"
+        },
+        {
+            "name": "sonata-project/google-authenticator",
+            "version": "2.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/sonata-project/GoogleAuthenticator.git",
+                "reference": "4d2ce1c8f0bbf6169e54634d6dda70d8e338471f"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/sonata-project/GoogleAuthenticator/zipball/4d2ce1c8f0bbf6169e54634d6dda70d8e338471f",
+                "reference": "4d2ce1c8f0bbf6169e54634d6dda70d8e338471f",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.0"
+            },
+            "require-dev": {
+                "sllh/php-cs-fixer-styleci-bridge": "^2.1",
+                "symfony/phpunit-bridge": "~3.2"
+            },
+            "type": "library",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Google\\Authenticator\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Christian Stocker",
+                    "email": "me@chregu.tv"
+                },
+                {
+                    "name": "Andre DeMarre",
+                    "homepage": "http://www.devnetwork.net/viewtopic.php?f=50&t=94989"
+                },
+                {
+                    "name": "Thomas Rabaix",
+                    "email": "thomas.rabaix@gmail.com"
+                }
+            ],
+            "description": "Library to integrate Google Authenticator into a PHP project",
+            "homepage": "https://github.com/sonata-project/GoogleAuthenticator",
+            "keywords": [
+                "google authenticator"
+            ],
+            "abandoned": true,
+            "time": "2017-06-05T08:44:54+00:00"
         },
         {
             "name": "symfony/console",
@@ -5652,12 +6488,12 @@
             "version": "1.1.8",
             "source": {
                 "type": "git",
-                "url": "https://github.com/allure-framework/allure-php-commons.git",
+                "url": "https://github.com/allure-framework/allure-php-api.git",
                 "reference": "5ae2deac1c7e1b992cfa572167370de45bdd346d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/allure-framework/allure-php-commons/zipball/5ae2deac1c7e1b992cfa572167370de45bdd346d",
+                "url": "https://api.github.com/repos/allure-framework/allure-php-api/zipball/5ae2deac1c7e1b992cfa572167370de45bdd346d",
                 "reference": "5ae2deac1c7e1b992cfa572167370de45bdd346d",
                 "shasum": ""
             },
@@ -6487,6 +7323,7 @@
                 }
             ],
             "description": "Guzzle6 transport for Vault PHP client",
+            "abandoned": true,
             "time": "2019-03-10T06:17:37+00:00"
         },
         {
@@ -8755,6 +9592,7 @@
             "keywords": [
                 "tokenizer"
             ],
+            "abandoned": true,
             "time": "2020-06-27T06:36:25+00:00"
         },
         {
@@ -9314,6 +10152,7 @@
             ],
             "description": "FinderFacade is a convenience wrapper for Symfony's Finder component.",
             "homepage": "https://github.com/sebastianbergmann/finder-facade",
+            "abandoned": true,
             "time": "2020-02-08T06:07:58+00:00"
         },
         {
@@ -10586,12 +11425,12 @@
             "version": "1.9.1",
             "source": {
                 "type": "git",
-                "url": "https://github.com/webmozart/assert.git",
+                "url": "https://github.com/webmozarts/assert.git",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/webmozart/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
+                "url": "https://api.github.com/repos/webmozarts/assert/zipball/bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "reference": "bafc69caeb4d49c39fd0779086c03a3738cbb389",
                 "shasum": ""
             },
@@ -10670,7 +11509,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "mageplaza/magento-2-vietnamese-language-pack": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
