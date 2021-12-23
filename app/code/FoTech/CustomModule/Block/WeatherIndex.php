@@ -20,8 +20,8 @@ class WeatherIndex extends \Magento\Framework\View\Element\Template
         curl_close($curl);
         $res['name'] = $data['name'];
         $res['main'] = $data['weather'][0]['main'];
-        $res['temp'] = $data['main']['temp'] - 273.15;
-        $res['wind'] = $data['wind']['speed'];
+        $res['temp'] = round($data['main']['temp'] - 273.15, 1);
+        $res['wind'] = round($data['wind']['speed'], 1);
         $res['clouds'] = $data['clouds']['all'];
         $res['humidity'] = $data['main']['humidity'];
         return $res;
