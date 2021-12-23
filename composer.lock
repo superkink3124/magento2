@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ffb6775c1eab4c5259b4f933b6fede50",
+    "content-hash": "03e8efaa7405876125f643c290d511e2",
     "packages": [
         {
             "name": "boolfly/module-momo-wallet",
@@ -3808,6 +3808,47 @@
             "description": "Vietnamese language package for Magento 2",
             "homepage": "https://www.mageplaza.com",
             "time": "2021-07-29T09:10:54+00:00"
+        },
+        {
+            "name": "mageplaza/module-ajax-layered-navigation",
+            "version": "4.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-ajax-layered-navigation.git",
+                "reference": "0fe7e440b0d2eed67cedf81fc466f092b46493ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-ajax-layered-navigation/zipball/0fe7e440b0d2eed67cedf81fc466f092b46493ef",
+                "reference": "0fe7e440b0d2eed67cedf81fc466f092b46493ef",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\AjaxLayer\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Ajax Layered Navigation Extension",
+            "time": "2021-08-22T11:23:56+00:00"
         },
         {
             "name": "mageplaza/module-core",
