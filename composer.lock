@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "01689278e4ede0e3af5a7d52fef5cfe7",
+    "content-hash": "70678cd1a2f267830898c7b85f66dc2f",
     "packages": [
         {
             "name": "boolfly/module-momo-wallet",
@@ -3487,6 +3487,50 @@
             "time": "2020-05-20T16:45:56+00:00"
         },
         {
+            "name": "lillik/magento2-price-decimal",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lillik/magento2-price-decimal.git",
+                "reference": "f36629ccc9eeac0816f4e7d4f4b641395ede0318"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lillik/magento2-price-decimal/zipball/f36629ccc9eeac0816f4e7d4f4b641395ede0318",
+                "reference": "f36629ccc9eeac0816f4e7d4f4b641395ede0318",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*",
+                "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Lillik\\PriceDecimal\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Lilian Codreanu",
+                    "email": "lilian.codreanu@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Magento 2 Price Decimal Precision",
+            "keywords": [
+                "magento2"
+            ],
+            "time": "2020-03-20T23:05:01+00:00"
+        },
+        {
             "name": "magento/composer",
             "version": "1.6.0",
             "source": {
@@ -3844,6 +3888,47 @@
             "time": "2021-07-29T09:10:54+00:00"
         },
         {
+            "name": "mageplaza/module-ajax-layered-navigation",
+            "version": "4.0.3",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-ajax-layered-navigation.git",
+                "reference": "0fe7e440b0d2eed67cedf81fc466f092b46493ef"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-ajax-layered-navigation/zipball/0fe7e440b0d2eed67cedf81fc466f092b46493ef",
+                "reference": "0fe7e440b0d2eed67cedf81fc466f092b46493ef",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\AjaxLayer\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Ajax Layered Navigation Extension",
+            "time": "2021-08-22T11:23:56+00:00"
+        },
+        {
             "name": "mageplaza/module-core",
             "version": "1.4.11",
             "source": {
@@ -4008,16 +4093,16 @@
         },
         {
             "name": "mageplaza/module-smtp",
-            "version": "4.6.3",
+            "version": "4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mageplaza/magento-2-smtp.git",
-                "reference": "49d82c7f85f1b6ddd02d6dff85f4b0009a0acb95"
+                "reference": "6adf1574b6a2640d6ceffd898494181487ab6159"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/49d82c7f85f1b6ddd02d6dff85f4b0009a0acb95",
-                "reference": "49d82c7f85f1b6ddd02d6dff85f4b0009a0acb95",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/6adf1574b6a2640d6ceffd898494181487ab6159",
+                "reference": "6adf1574b6a2640d6ceffd898494181487ab6159",
                 "shasum": ""
             },
             "require": {
