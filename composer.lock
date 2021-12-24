@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "03e8efaa7405876125f643c290d511e2",
+    "content-hash": "70678cd1a2f267830898c7b85f66dc2f",
     "packages": [
         {
             "name": "boolfly/module-momo-wallet",
@@ -3451,6 +3451,50 @@
                 "zf"
             ],
             "time": "2020-05-20T16:45:56+00:00"
+        },
+        {
+            "name": "lillik/magento2-price-decimal",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/lillik/magento2-price-decimal.git",
+                "reference": "f36629ccc9eeac0816f4e7d4f4b641395ede0318"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/lillik/magento2-price-decimal/zipball/f36629ccc9eeac0816f4e7d4f4b641395ede0318",
+                "reference": "f36629ccc9eeac0816f4e7d4f4b641395ede0318",
+                "shasum": ""
+            },
+            "require": {
+                "magento/framework": "*",
+                "php": "~5.6.0|7.0.2|7.0.4|~7.0.6|~7.1"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Lillik\\PriceDecimal\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Lilian Codreanu",
+                    "email": "lilian.codreanu@gmail.com",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Magento 2 Price Decimal Precision",
+            "keywords": [
+                "magento2"
+            ],
+            "time": "2020-03-20T23:05:01+00:00"
         },
         {
             "name": "magento/composer",
