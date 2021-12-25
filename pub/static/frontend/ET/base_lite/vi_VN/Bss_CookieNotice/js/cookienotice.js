@@ -1,1 +1,0 @@
-/var/www/html/magento2/app/code/Bss/CookieNotice/view/frontend/web/js/cookienotice.js
