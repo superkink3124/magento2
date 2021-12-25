@@ -1,0 +1,1 @@
+/var/www/html/magento2/app/code/Solwin/Cpanel/view/adminhtml/web/js/update.js

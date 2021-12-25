@@ -1,0 +1,1 @@
+/var/www/html/magento2/app/code/Magenest/ImageGallery/view/frontend/web/js/view/light-box.js
