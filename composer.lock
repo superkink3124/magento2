@@ -4284,16 +4284,16 @@
         },
         {
             "name": "mageplaza/module-smtp",
-            "version": "4.6.3",
+            "version": "4.3.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mageplaza/magento-2-smtp.git",
-                "reference": "49d82c7f85f1b6ddd02d6dff85f4b0009a0acb95"
+                "reference": "6adf1574b6a2640d6ceffd898494181487ab6159"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/49d82c7f85f1b6ddd02d6dff85f4b0009a0acb95",
-                "reference": "49d82c7f85f1b6ddd02d6dff85f4b0009a0acb95",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-smtp/zipball/6adf1574b6a2640d6ceffd898494181487ab6159",
+                "reference": "6adf1574b6a2640d6ceffd898494181487ab6159",
                 "shasum": ""
             },
             "require": {
