@@ -223,3 +223,7 @@ body{
         filter: blur(0);
     }
 }
+
+main {
+    padding: 0 !important;
+}
