@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "0f636e6a91b1cab9e61d979e3064a217",
+    "content-hash": "670ed1ab79cf1f0bd8fb1d594a266242",
     "packages": [
         {
             "name": "boolfly/module-base",
@@ -3923,6 +3923,47 @@
             ],
             "description": "Magento 2 Ajax Layered Navigation Extension",
             "time": "2021-08-22T11:23:56+00:00"
+        },
+        {
+            "name": "mageplaza/module-banner-slider",
+            "version": "4.0.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/mageplaza/magento-2-banner-slider.git",
+                "reference": "40045f9f5224b94ab26e41fd082f2296af79a56b"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/mageplaza/magento-2-banner-slider/zipball/40045f9f5224b94ab26e41fd082f2296af79a56b",
+                "reference": "40045f9f5224b94ab26e41fd082f2296af79a56b",
+                "shasum": ""
+            },
+            "require": {
+                "mageplaza/module-core": "^1.4.5"
+            },
+            "type": "magento2-module",
+            "autoload": {
+                "files": [
+                    "registration.php"
+                ],
+                "psr-4": {
+                    "Mageplaza\\BannerSlider\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Mageplaza",
+                    "email": "support@mageplaza.com",
+                    "homepage": "https://www.mageplaza.com",
+                    "role": "Technical Support"
+                }
+            ],
+            "description": "Magento 2 Banner Slider extension",
+            "time": "2021-08-17T09:58:53+00:00"
         },
         {
             "name": "mageplaza/module-core",
