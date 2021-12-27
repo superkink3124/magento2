@@ -74,6 +74,7 @@
         "mageplaza/magento-2-seo-extension": "^4.1",
         "mageplaza/magento-2-vietnamese-language-pack": "dev-master",
         "mageplaza/module-ajax-layered-navigation": "^4.0",
+        "mageplaza/module-banner-slider": "^4.0",
         "mageplaza/module-lazy-loading": "^4.0",
         "mageplaza/module-sitemap": "^4.0",
         "mageplaza/module-smtp": "^4.0",
